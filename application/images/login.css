@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{ word-wrap:break-word; outline:none; }
+body{ background:#FFF; text-align:center; }
+body, td, input, textarea, select, button{ color:#555; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, "", sans-serif; }
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin:0; padding:0; }
+ul{ list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:12px; }
+a{ color:#2366A8; text-decoration:none; }
+a:hover { text-decoration:underline; }
+a img{ border:none; }
+em, cite, th{ font-style:normal; font-weight:normal; }
+table{ border-collapse:collapse; }
+th{ text-align:left; }
+label{ cursor:pointer; }
+
+/* form */
+textarea, input, select{ padding:2px; border:1px solid; border-color:#666 #ccc #ccc #666; background:#F9F9F9; color:#333; }
+
+.copyright{ position:absolute; z-index:10; left:5px; bottom:3px; padding-top:3px; border-top:1px dashed #DDD; text-align:left; line-height:150%; font-family:Tahoma; font-size:11px; }
+.logintb{ text-align:left; margin:120px auto 0; width:600px; }
+.login{ padding-right:30px; width:310px; height:150px; background:url(bg_login.gif) right 50% no-repeat; }
+.login h1{ text-indent:-9999px; margin-bottom:10px; width:262px; height:70px; background:url(login_title.jpg) no-repeat left top; }
+.login p{ line-height:150%; }
+.logintitle{ float:left; clear:left; width:60px; line-height:180%; font-weight:700; font-size:14px; color:#666; }
+.loginform{ float:left; line-height:180%; font-size:14px; width:160px; }
+.loginform .txt{ margin-top:2px; width:160px; }
+.loginnofloat{ clear:both; padding-top:10px; }
+.loginnofloat .btn{ margin-left:60px;width:100px; }
+.logintips{ line-height:160%; margin-left:25px; }
+.logintips a{ margin:0 5px; text-decoration:underline; }
+.footer{}
+.footer .copyright{ position:static; margin-top:120px; border:none; text-align:center; font-size:12px; }
+.footer p{ display:inline; }
