@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import url("style.css");
+html{overflow-x:hidden;}
+dl.menu{
+	margin-top:10px;
+	padding-left:10px;
+}
+dl.menu dt{
+	background:url(menu_bt.jpg) no-repeat;
+	height:22px;
+	line-height:20px;
+	padding-left:20px;
+	margin-bottom:4px;
+}
+dl.menu dt.cur{
+	background:url(menu_bt_cur.jpg) no-repeat;
+}
+dl.menu dt.cur a{
+	color:#F60;
+}
+dl.menu dt a{
+	color:#000;
+	text-decoration:none;
+}
+dl.menu dt a:hover{
+	color:#f60;
+	text-decoration:none;
+}
+dl.menu dd{
+	margin-bottom:4px;
+}
+dl.menu dd p{
+	background:url(menu_icon.gif) no-repeat 10px;
+	height:20px;
+	line-height:20px;
+	padding-left:25px;
+}
+dl.menu dd a{
+	height:20px;
+}
+dl.menu dd a.cur{
+	font-weight:bold;
+	color:#F60;
+}
+dl.menu dd div{
+	margin-left:1em;
+	margin-bottom:5px;
+}

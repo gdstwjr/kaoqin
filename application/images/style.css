@@ -1,0 +1,201 @@
+/* CSS Document */
+@charest "utf-8";
+/*基本样式开始*/
+body, p, form, dl, dd, dt{margin:0;padding:0;}
+img{border:none}
+body, table{font-size:12px;font-family:Tahoma,Verdana,Helvetica,Arial,sans-serif;}
+input, select, textarea{font-size:12px;font-family:Courier New,Tahoma,Verdana,Helvetica,Arial,sans-serif;}
+label{cursor:pointer}
+
+a{text-decoration: none;color: #036;}
+a:hover{text-decoration: underline;color: #F60;}
+a{blr:expression(this.onFocus=this.blur());}
+a:focus{outline:none;}
+
+.red{color:red}
+.green{color:green}
+.blue{color:blue}
+.white{color:white}
+.gray{color:gray}
+.orange{color:orange}
+.yellow{color:yellow}
+
+.tLeft{text-align:left}
+.tRight{text-align:right}
+.tCenter{text-align:center}
+.tTop{vertical-align:top}
+.tBottom{vertical-align:bottom}
+.tMiddle{vertical-align:middle}
+.hMargin{margin-left:5px;margin-right:5px}
+.vMargin{margin-top:5px;margin-bottom:5px}
+
+.fLeft{float:left}
+.fRight{float:right}
+.fNone{float:none}
+.cBoth{clear:both}
+
+.normal{font-weight:normal}
+.bold{font-weight:bold}
+
+.over{background-color:#EBF4FD}
+.out{background-color:#FFFFFF}
+.down{background-color:#EBF4FD}
+.click{background-color:#CC3}
+
+.space{letter-spacing:4px}
+.indent{text-indent:2em}
+
+.super{width:800px}
+.huge{width:600px}
+.large{width:450px}
+.big{width:280px}
+.medium{width:150px}
+.small{width:65px}
+.mini{width:35px}
+
+.dashed{border:1px dashed gray}
+.solid{border:1px solid gray}
+.bLeftRequire{border-left-width:2px;border-left-color:red}
+.readonly{filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;}
+
+.none{display:none}
+.inline{display:inline}
+.block{display:block}
+.border{border-width:1px;border-style:solid;}
+.hand{cursor:pointer}
+/*基本样式结束*/
+
+optgroup {
+	font-style:normal;
+}
+select{
+	font-size:14px;
+	vertical-align:middle;
+}
+textarea, input, select{
+	padding:2px;
+	border:1px solid;
+	border-color:#666 #ccc #ccc #666;
+	background:#F9F9F9;
+	color:#333;
+}
+.position{
+	height:25px;
+	line-height:25px;
+	padding-left:25px;
+	border-bottom:1px solid #ADCEFF;
+	background:url(location.gif) no-repeat #F4F7FC 5px 5px;
+}
+.inputText1, .textarea1{
+	line-height:150%;
+	vertical-align:middle;
+}
+.inputText1{
+	height:18px;
+	line-height:18px;
+	padding-left:2px;
+}
+
+
+table.listTable {
+	border-collapse:collapse;
+	border:1px solid #B1CEEE;
+}
+table.listTable td, table.listTable th {
+	border:1px solid #B1CEEE;
+}
+table.listTable tr .left{
+	text-indent:1em;
+	text-align:left;
+}
+table.listTable tr {
+	height:25px;
+	text-align:center;
+}
+table.listTable tr.listHeaderTr {
+	height:25px;
+	background-color:#EBF4FD;
+	text-align:center;
+	font-weight:bold;
+}
+table.listTable tr.listFooterTr {
+	height:30px;
+	background-color:#EBF4FD;
+	text-align:center;
+}
+
+.over{background-color:#EBF4FD}
+.out{background-color:#FFF}
+
+
+table.editTable {
+	border:1px solid #B1CEEE;
+	border-collapse:collapse;
+}
+table.editTable td{
+	border:1px solid #B1CEEE;
+}
+tr.editHeaderTr {
+	height:25px;
+	background-color:#EBF4FD;
+}
+td.editHeaderTd {
+	padding-left:50px;
+	font-weight:bold;
+}
+tr.editTr {
+	height:30px;
+}
+td.editLeftTd {
+	width:150px;
+	text-align:center;
+	background-color:#FFFDF0;
+}
+td.editRightTd {
+	background-color:#FFF;
+	padding-left:5px;
+}
+tr.editFooterTr {
+	height:40px;
+	background-color:#EBF4FD;
+}
+td.editFooterTd {
+	padding-left:150px;
+}
+
+div.AjaxResult{
+	position:absolute;
+	display:none;
+	z-index:1000;
+	letter-spacing:2px;
+	top:5px;
+	right:5px;
+	padding:5px 20px 5px 10px;
+	font-weight:bold;
+	border:1px solid gray;
+	color:blue;
+	background:#FFF;
+	background-position:3px 40%;
+	font-family:微软雅黑,Tahoma,Helvetica,sans;
+}
+div.result{
+	border:1px solid #d4d4d4;
+	background:#FFC;
+	padding:8px 12px;
+	margin:2px 15px;
+	line-height:185%;
+	color:#393939;
+	font-weight:bold;
+	float:auto;
+	width:85%;
+	height:25px;
+}
+.message{
+	background-color:#EBF4FD;
+	border:1px solid #B1CEEE;
+	height:25px;
+	line-height:25px;
+	margin:8px;
+	text-indent:1em;
+	font-weight:bold;
+}
